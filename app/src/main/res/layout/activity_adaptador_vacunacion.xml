@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="11dp"
+    app:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="17dp"
+            android:layout_y="36dp"
+            android:text="AO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="82dp"
+            android:fontFamily="monospace"
+            android:text="Mes"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_x="21dp"
+            android:layout_y="181dp"
+            android:text="Valor"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_x="165dp"
+            android:layout_y="143dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Municipio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="9dp"
+            android:layout_y="135dp"
+            android:fontFamily="monospace"
+            android:text="Municipio"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_x="163dp"
+            android:layout_y="189dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_x="168dp"
+            android:layout_y="86dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_x="166dp"
+            android:layout_y="45dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+</android.support.v7.widget.CardView>
